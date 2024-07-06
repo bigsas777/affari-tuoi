@@ -1,4 +1,5 @@
 Progetto data science "Affari Tuoi"
+Link slide online: https://bigsas777.github.io/affari-tuoi/#/
 
 Nella repository sono presenti:
 - codice del software per la raccolta dati (versione 1 e versione 2)
