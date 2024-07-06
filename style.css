@@ -1,0 +1,47 @@
+p, ul, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue' !important;
+}
+
+p.sub, h4.sub, li.sub {
+    color: #8b8b8b;
+}
+
+.container {
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.num {
+    font-family: Menlo, Monaco, 'Courier New', monospace !important;
+    font-size: 13pt;
+    padding-left: 8px;
+    display: inline;
+}
+
+.text-num {
+    font-family: Menlo, Monaco, 'Courier New', monospace !important;
+    font-size: 13pt;
+}
+
+ol {
+    counter-reset: list;
+}
+
+ol > b > li, ol > li {
+    list-style: none;
+}
+
+ol > b > li:before, ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+ol > b > ul {
+    font-weight: 400;
+}
